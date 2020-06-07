@@ -26,7 +26,7 @@ export class ChatArea extends React.Component {
           {messages.map((element: IMessage, idx: number) => {
             return (
               <React.Fragment key={idx}>
-                <Message message={element}/>
+                <Message message={element}/>dasd
               </React.Fragment>
             )
           })}
